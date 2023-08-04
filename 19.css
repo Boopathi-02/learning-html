@@ -1,0 +1,405 @@
+header {
+    width: 100%;
+    height: 10vh;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    opacity: 1;
+
+}
+
+h2 {
+    align-self: center;
+}
+h2>span{
+    color: rgb(43, 189, 226);
+    font-size: 30px;
+}
+
+.nav1 {
+    align-self: center;
+    border: solid 0px;
+
+}
+
+
+
+.nav1>a {
+    margin: 10px;
+    border: solid 0px;
+    text-decoration: none;
+    color:rgb(43, 189, 226);
+    display: inline-block;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+
+
+}
+
+
+.nav1>a:hover {
+    /* color: pink;
+    transform: rotate(15deg); */
+    text-decoration: underline;
+    font-size: 25px;
+    
+
+}
+.login{
+    border: solid 0px;
+    width: 200px;
+    padding: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.login>a>button{
+    border-color:rgb(43, 189, 226);
+    color: rgb(43, 189, 226);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+.login>a>button:hover{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(43, 189, 226);
+}
+/* ------------------------------second-------------------------------------------- */
+.second{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border:solid 0px ;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgba(77, 76, 76, 0.384); */
+    background-image: url(https://www.jmcacademy.edu.au/media/mt2ovg0h/hero19201080_animationv2.jpg);
+    background-size: cover;
+    color: white;
+}
+.sec>p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.sec>input{
+    width:20vw;
+    height: 7vh;
+    border: solid 0px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+/* ------------------------------------third----------------------------- */
+.third{
+    width: 100%;
+    height: 100vh;
+    border: solid 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third>h1{
+    /* display: flex;
+    justify-content: center; */
+    color: rgb(43, 189, 226);
+    margin-top: 50px;
+}
+.cat{
+    position: relative;
+    width: 50vw;
+    height: 20vh;
+    border: solid 0px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+.cat1{
+    width:10vw ;
+    height: 10vh;
+    border: solid 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 10px;
+    transition: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 5px;
+    background-color:  rgba(77, 76, 76, 0.384);
+
+}
+.cat1:hover{
+    background-color:rgb(43, 189, 226);
+    color: white;
+    /* transform: scale(2.5); */
+    width: 30vw;
+    height: 30vh;
+    font-size: 50px;
+    border: solid 1px;
+    box-shadow: 10px 10px 30px  rebeccapurple;
+    
+}
+/* --------------------------------- */
+.person{
+    width: 100%;
+    height: 80vh;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.per1{
+    width: 20vw;
+    height: 60vh;
+    border: 0px solid;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/elon-musk-1597910610.jpg);
+    background-size: cover;
+    color: white;
+   display: flex;
+   align-items: end;
+   font-weight: bold;
+   box-shadow: 10px 10px 10px  rgb(8, 8, 8);
+}
+.per2{
+    width: 20vw;
+    height: 60vh;
+    border: 0px solid;
+    background-image: url(https://wallpapers.com/images/hd/ceo-sundar-pichai-questions-congress-e9dqrvezsy9dxj26.jpg);
+   background-size: cover;
+   color: white;
+   display: flex;
+   align-items: end;
+   font-weight: bold;
+   box-shadow: 10px 10px 10px  rgb(0, 0, 0);
+}
+.per3{
+    width: 20vw;
+    height: 60vh;
+    border: 0px solid;
+    background-image: url(https://i.pinimg.com/originals/4c/37/b8/4c37b8dbae2fc4934b12e885b21c99bc.jpg);
+    background-size: cover;
+    color: white;
+   display: flex;
+   align-items: end;
+   font-weight: bold; box-shadow: 10px 10px 10px  rgb(5, 5, 5);
+   
+}
+.per{
+    opacity: 0;
+    border: solid 1px;
+    height: 60vh;
+    width: 20vw;
+
+}
+.per1:hover{
+    background-size: 500px;
+    
+}
+.per2:hover{
+    background-size: 600px;
+    
+}
+.per3:hover{
+    background-size: 300px;
+    
+    
+}
+.per:hover{
+    opacity: 1;
+    font-size: 20px;
+}
+.who{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+.who>span{
+    color: rgb(43, 189, 226);
+}
+/* --------------------------------------- */
+.contact{
+    width: 100%;
+    height: 80vh;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(88, 87, 87, 0.164);
+}
+.con>input{
+    width: 20vw;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact>span{
+    font-size: 70px;
+    color:rgb(43, 189, 226);
+    margin-bottom: 50px;
+}
+/* ------------------------------- */
+.geetha{
+    width: 100%;
+    height: 100vh;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+   
+}
+
+
+.gee{
+    width: 30%;
+    height: 50vh;
+    border: 0px solid;
+    text-align: justify;
+    margin-top: 100px; 
+    display: block;
+    opacity: 0;
+    animation: reveal 2s forwards;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes reveal {
+    from{
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+    
+}
+
+
+
+.gee>a>button{
+    padding: 10px;
+    background-color:rgb(43, 189, 226);
+    color: white;
+    font-size: 15px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.geet{
+    width: 40%;
+    height: 80vh;
+    border: 0px solid;
+    border-radius: 100%;
+   /* background-color: rgba(74, 74, 74, 0.153); */
+    background-image: url(https://st3.depositphotos.com/34189048/35752/v/450/depositphotos_357520166-stock-illustration-donut-isolated-white-background-cute.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   animation: roll;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes roll {
+    from{
+        transform: rotate(0deg) ;
+        
+    }
+    to{
+        transform: rotate(360deg);
+        
+    }
+}
+
+
+
+/* ------------------- */
+.one{
+    width: 15%;
+    height: 5vh;
+    border: 1px solid;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    rotate: 55deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.two{
+    width: 15%;
+    height: 5vh;
+    border: 1px solid;
+    position: relative;
+    top: 50px;
+    left: 350px;
+    rotate: 130deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.three{
+    width: 15%;
+    height: 5vh;
+    border: 1px solid;
+    position: relative;
+    top: 300px;
+    left: 70px;
+    rotate: 135deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.four{
+    width: 15%;
+    height: 5vh;
+    border: 1px solid;
+    position: relative;
+    top: 270px;
+    left: 350px;
+    rotate: 60deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.one:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(43, 189, 226);
+
+}
+.two:hover{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(43, 189, 226);
+
+}
+.three:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(43, 189, 226);
+
+}
+.four:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(43, 189, 226);
+
+}

@@ -1,0 +1,17 @@
+.form{
+   border: 0px;
+   border-bottom: 1px solid;
+}
+.form::placeholder{
+    color: transparent;
+}
+.flied{
+    position: absolute;
+    display: block;
+    top: 0;
+}
+.form::placeholder-show ~ .flied{
+    top: 20px;
+    
+    
+}
